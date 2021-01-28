@@ -1,0 +1,52 @@
+:root {
+  --primary-color: #F97639;
+  --secondary-color: #525252;
+  --background-color: #EEECE7;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4vh;
+}
+
+.layout-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--background-color);
+}
+
+header {
+  height: 10%;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  height: 90%;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--secondary-color)
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 2rem;
+  color: var(--primary-color)
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
