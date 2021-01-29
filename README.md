@@ -1,48 +1,25 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# SEBBEITEL.DEV
 
-## 🚀 Quick start
+## Links
 
-1.  **Create a Gatsby site.**
+[Github Repo](https://github.com/conspop/portfolio-gatsby)
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+[Deployed App](https://sebbeitel.dev)
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## Description
 
-2.  **Start developing.**
+My personal developer portfolio site.
 
-    Navigate into your new site’s directory and start it up.
+## Technologies Used
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+- Gatsby
+- React JS
+- HTML/CSS/Javascript
 
-3.  **Open the code and start customizing!**
+## Next Steps
 
-    Your site is now running at http://localhost:8000!
+- The most important next step is to complete the app by adding the Create Invoice functionality. The user will provide a studio and a timeframe and the app will generate a downloadable invoice for them.
+- Give the user more flexibility for adding classes. For example, I will add the ability to choose different frequencies for classes other than weekly. I will also add more types of payment terms like minimums.
+- Provide users with notifications. They could select to have a daily schedule sent to their email or be notified when they have classes that have not been tagged.
+- I would like to add a tutorial to the app so it is easier for new users to understand.
 
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
