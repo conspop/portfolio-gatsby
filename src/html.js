@@ -13,6 +13,8 @@ export default function HTML(props) {
         />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.9.0/devicon.min.css"></link>
         <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/all.min.css"></link>
+        <script src="https://kit.fontawesome.com/570e537b6f.js" crossorigin="anonymous"></script>
+        <title>Sebastien Beitel</title>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

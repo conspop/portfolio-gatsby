@@ -6,7 +6,7 @@ export default function SkillsPage() {
     <Layout>
       <main>
         <h2 style={{color: 'var(--primary-color)', marginBottom:'1rem'}}>I'm most at home using a MERN stack</h2>
-        <h3 style={{marginBottom: '2rem'}}>and have experience with many other technologies:</h3>
+        <p style={{marginBottom: '2rem'}}>but I'm constantly learning and have experience with many other technologies.</p>
         <div style={{display:'flex', marginBottom: '2rem' }}>
           <LargeIcon icon={<i class="devicon-mongodb-plain"></i>} name='Mongo' />
           <LargeIcon icon={<i class="devicon-express-original"></i>} name='Express' />
@@ -14,7 +14,7 @@ export default function SkillsPage() {
           <LargeIcon icon={<i class="devicon-nodejs-plain"></i>} name='Node' />
           
         </div>
-        <div style={{display:'flex', marginBottom: '2rem' }}>
+        <div style={{display:'flex', flexWrap:'wrap'}}>
           <SmallIcon icon={<i class="devicon-javascript-plain"></i>} name='JavaScript' />
           <SmallIcon icon={<i class="devicon-html5-plain"></i>} name='HTML5' />
           <SmallIcon icon={<i class="devicon-css3-plain"></i>} name='CSS3' />
@@ -40,7 +40,7 @@ function LargeIcon({icon, name}) {
 
   return (
     <div style={largeIconStyle}>
-      <div style={{fontSize:'3rem'}}>{icon}</div>
+      <div style={{fontSize:'2.5rem'}}>{icon}</div>
       <div>{name}</div>
     </div>
   )
@@ -52,13 +52,13 @@ function SmallIcon({icon, name}) {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    margin: '0 .5rem'
+    margin: '.25rem .25rem'
   }
 
   return (
     <div style={smallIconStyle}>
       <div style={{fontSize:'1.5rem'}}>{icon}</div>
-      <div>{name}</div>
+      <div style={{fontSize:'.75rem'}}>{name}</div>
     </div>
   )
 }
