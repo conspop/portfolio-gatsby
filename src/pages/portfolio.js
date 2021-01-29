@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import Layout from '../components/Layout'
 import PortfolioLayout from '../components/PortfolioLayout'
-import crosshairGame from '../images/crosshair/game.png'
-import crosshairGames from '../images/crosshair/games.png'
-import crosshairLobby from '../images/crosshair/lobby.png'
-import crosshairLeaderboard from '../images/crosshair/leaderboard.png'
+import crosshairGame from '../images/crosshair/game.PNG'
+import crosshairGames from '../images/crosshair/games.PNG'
+import crosshairLobby from '../images/crosshair/lobby.PNG'
+import crosshairLeaderboard from '../images/crosshair/leaderboard.PNG'
 import rosie from '../images/rosiebeitel/rosiebeitel.png'
 
 const projects = [
