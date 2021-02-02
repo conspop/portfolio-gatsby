@@ -20,6 +20,7 @@ export default function Layout({children}) {
     <div className='layout-container'>
         <Helmet>
           <link rel='icon' href={favicon} />
+          <meta property="og:image" content="../images/gatsby-icon.png" />
         </Helmet>
       <Header />
       {children}
