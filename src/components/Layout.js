@@ -14,6 +14,12 @@ export default function Layout({children}) {
     let vh = window.innerHeight * 0.01
     let layoutContainerEl = document.querySelector('.layout-container')
     layoutContainerEl.style.setProperty('--vh', `${vh}px`)
+
+    window.addEventListener('resize', () => {
+      // We execute the same script as before
+      vh = window.innerHeight * 0.01;
+      layoutContainerEl.style.setProperty('--vh', `${vh}px`);
+    });
   },[])
 
   return (

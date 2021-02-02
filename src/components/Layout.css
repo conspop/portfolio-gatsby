@@ -3,7 +3,8 @@
   --secondary-color: #525252;
   --background-color: #EEECE7;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 4vh;
+  font-size: min(30px, 4vh);
+  
 }
 
 .layout-container {
@@ -71,9 +72,19 @@ p {
   margin: .25rem .25rem;
 }
 
+@media (max-width: 1500px) and (orientation: portrait) {
+  :root {
+    font-size: min(30px, 3vh);
+  }
+
+  main {
+    width: 90%;
+  }
+} 
+
 @media (max-width: 1050px) {
   :root {
-    font-size: 3vh;
+    font-size: min(30px, 3vh);
   }
 
   main {
@@ -83,7 +94,7 @@ p {
 
 @media (max-width: 800px) {
   :root {
-    font-size: 3vh;
+    font-size: min(30px, 3vh);
   }
 
   main {
@@ -93,7 +104,7 @@ p {
 
 @media (max-width: 450px) {
   :root {
-    font-size: 2.25vh;
+    font-size: min(30px, 2.25vh);
   }
 
   main {
