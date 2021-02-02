@@ -20,7 +20,10 @@ export default function Layout({children}) {
     <div className='layout-container'>
         <Helmet>
           <link rel='icon' href={favicon} />
-          <meta property="og:image" content="/hi-im-seb.png" />
+          <meta property='og:title' content="Sebastien Beitel"/>
+          <meta property="og:image" content="//sebbeitel.dev/hi-im-seb.png" />
+          <meta property='og:description' content="Sebastien Beitel's Portfolio"/>
+          <meta property='og:url' content='//www.sebbeitel.dev'/>
         </Helmet>
       <Header />
       {children}
