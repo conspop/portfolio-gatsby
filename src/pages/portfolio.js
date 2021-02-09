@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import Layout from '../components/Layout'
 import PortfolioLayout from '../components/PortfolioLayout'
-import { graphql } from 'gatsby'
-import Img from ''
 
 import projects from '../data/projects'
 
